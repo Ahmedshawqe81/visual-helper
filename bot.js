@@ -19,4 +19,11 @@ client.on('message', message => {
 });
 
 
+
+client.on('ready', message => {
+ console.log('Ready')
+});
+
+
+
 client.login(process.env.BOT_TOKEN);
